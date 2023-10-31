@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Calculator</h1>
+    <div id="calculator">
+        <input type="text" id="display" readonly>
+
+        <div>
+            <button onclick="addtodis('1')">1</button>
+            <button onclick="addtodis('2')">2</button>
+            <button onclick="addtodis('3')">3</button>
+            <button onclick="clendis()">C</button>
+        </div>
+        <div>
+            <button onclick="addtodis('4')">4</button>
+            <button onclick="addtodis('5')">5</button>
+            <button onclick="addtodis('6')">6</button>
+            <button onclick="calculate()">=</button>
+        </div>
+        <div>
+            <button onclick="addtodis('7')">7</button>
+            <button onclick="addtodis('8')">8</button>
+            <button onclick="addtodis('9')">9</button>
+            <button onclick="addtodis('0')">0</button>
+        </div>
+        <div>
+            <button onclick="addtodis('+')">+</button>
+            <button onclick="addtodis('-')">-</button>
+            <button onclick="addtodis('*')">*</button>
+            <button onclick="addtodis('/')">/</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
